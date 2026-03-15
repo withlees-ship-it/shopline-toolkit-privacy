@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOPLINE 工具箱 - 隱私權政策</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 40px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      background: white;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      margin: 0 auto 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .content {
+      padding: 40px;
+    }
+
+    .update-date {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #333;
+      margin: 30px 0 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2:first-of-type {
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    .highlight-box {
+      background: linear-gradient(135deg, #e8f4fd 0%, #f0e6ff 100%);
+      border-radius: 12px;
+      padding: 25px;
+      margin: 25px 0;
+    }
+
+    .highlight-box h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .no-data-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .no-data-list li {
+      font-size: 14px;
+      color: #555;
+      padding: 10px 15px;
+      background: white;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .no-data-list li::before {
+      content: "❌";
+      font-size: 12px;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 14px;
+    }
+
+    .data-table th,
+    .data-table td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+
+    .data-table th {
+      background: #f8f9fa;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .data-table td {
+      color: #555;
+    }
+
+    .data-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .permission-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 14px;
+    }
+
+    .permission-table th,
+    .permission-table td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+
+    .permission-table th {
+      background: #f8f9fa;
+      font-weight: 600;
+      color: #333;
+      width: 30%;
+    }
+
+    .permission-table td {
+      color: #555;
+    }
+
+    .contact-box {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 25px;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .contact-box h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .contact-email {
+      font-size: 18px;
+      color: #667eea;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .footer {
+      padding: 20px 40px;
+      background: #f8f9fa;
+      text-align: center;
+      font-size: 13px;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      .no-data-list {
+        grid-template-columns: 1fr;
+      }
+
+      .content {
+        padding: 25px;
+      }
+
+      .header {
+        padding: 30px;
+      }
+
+      .title {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">🛠️</div>
+      <h1 class="title">SHOPLINE 工具箱</h1>
+      <p class="subtitle">隱私權政策</p>
+    </div>
+
+    <div class="content">
+      <p class="update-date">最後更新日期：2026年3月15日</p>
+
+      <h2>📋 概述</h2>
+      <p>
+        SHOPLINE 工具箱是一款瀏覽器擴充功能，專為 SHOPLINE 商家設計，幫助您批量處理商品資料及自訂出貨單格式。我們高度重視您的隱私，本政策說明我們如何處理您的數據。
+      </p>
+
+      <div class="highlight-box">
+        <h3>🛡️ 核心承諾</h3>
+        <p style="margin-bottom: 0;">
+          所有數據處理均在您的本地瀏覽器中完成。我們不收集、不存儲、不上傳任何用戶數據到外部服務器。
+        </p>
+      </div>
+
+      <h2>🚫 我們不收集的數據</h2>
+      <ul class="no-data-list">
+        <li>個人身份信息</li>
+        <li>商品數據</li>
+        <li>訂單信息</li>
+        <li>瀏覽歷史</li>
+        <li>Cookies 或跟踪數據</li>
+        <li>任何其他用戶數據</li>
+      </ul>
+
+      <h2>📁 數據處理方式</h2>
+      <p>所有功能均在您的本地瀏覽器中完成，數據不會離開您的設備：</p>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>功能</th>
+            <th>處理位置</th>
+            <th>是否上傳</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>商品文件合併</td>
+            <td>本地瀏覽器</td>
+            <td>否</td>
+          </tr>
+          <tr>
+            <td>商品文件拆分</td>
+            <td>本地瀏覽器</td>
+            <td>否</td>
+          </tr>
+          <tr>
+            <td>出貨單生成</td>
+            <td>本地瀏覽器</td>
+            <td>否</td>
+          </tr>
+          <tr>
+            <td>設置保存</td>
+            <td>Chrome 本地存儲</td>
+            <td>否</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>🔐 權限說明</h2>
+      <p>本擴充功能需要以下權限才能正常運作：</p>
+      <table class="permission-table">
+        <tbody>
+          <tr>
+            <th>storage</th>
+            <td>保存您的偏好設置，包括出貨單欄位配置、版面順序及語言選擇，以便下次使用時自動恢復設置。</td>
+          </tr>
+          <tr>
+            <th>activeTab</th>
+            <td>當您點擊擴充功能圖標時，獲取當前 SHOPLINE 訂單頁面的訪問權限，以便提取訂單數據生成出貨單。</td>
+          </tr>
+          <tr>
+            <th>scripting</th>
+            <td>在 SHOPLINE 訂單頁面注入內容腳本，提取訂單資訊（如收件人、商品明細等）以生成自訂出貨單。</td>
+          </tr>
+          <tr>
+            <th>主機權限</th>
+            <td>僅訪問 SHOPLINE 商家後台頁面 (admin.shoplineapp.com)，用於讀取訂單詳情及提供出貨單功能。不訪問任何其他網站。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>🌐 第三方服務</h2>
+      <p>
+        本擴充功能不使用任何第三方服務、API、分析工具或廣告服務。我們不與任何第三方共享數據。
+      </p>
+
+      <h2>👥 兒童隱私</h2>
+      <p>
+        我們的服務不針對 13 歲以下的兒童。我們不會故意收集兒童的個人信息。
+      </p>
+
+      <h2>📝 政策變更</h2>
+      <p>
+        我們可能會不時更新本隱私權政策。任何變更將在此頁面發布，並更新「最後更新日期」。建議您定期查看本政策。
+      </p>
+
+      <h2>📧 聯繫我們</h2>
+      <p>如果您對本隱私權政策有任何疑問或建議，請聯繫我們：</p>
+      <div class="contact-box">
+        <h3>電子郵件</h3>
+        <a href="mailto:withlees@gmail.com" class="contact-email">withlees@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      © 2026 SHOPLINE 工具箱. 保留所有權利.
+    </div>
+  </div>
+</body>
+</html>
